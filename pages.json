@@ -1,0 +1,59 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "推广创业",
+				"navigationBarBackgroundColor":"#ffffff",
+				"app-plus":{"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"app-plus":{"titleNView": false},
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"app-plus":{"titleNView": false},
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "金额提现",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		}
+	],
+
+	"tabBar":{
+		"color": "#EEEEEE",
+		"selectedColor": "#FF7322",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "white",
+		"list":[
+			{	"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath": "static/tabbarIcon/tab_icon_home_normal.png",
+				"selectedIconPath": "static/tabbarIcon/tab_icon_home_pressed.png"
+			},
+			{	"pagePath":"pages/news/news",
+				"text":"消息",
+				"iconPath": "static/tabbarIcon/tab_icon_news_normal.png",
+				"selectedIconPath": "static/tabbarIcon/tab_icon_news_normal.png"
+			},
+			{	"pagePath":"pages/profile/profile",
+				"text":"我的",
+				"iconPath": "static/tabbarIcon/tab_icon_user_normal.png",
+				"selectedIconPath": "static/tabbarIcon/tab_icon_user_pressed.png"
+			}
+		]
+	}
+}
